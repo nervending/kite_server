@@ -1,0 +1,22 @@
+{
+  "name": "kite_server",
+  "version": "1.0.0",
+  "description": "个人云相册服务器",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nervending/kite_server.git"
+  },
+  "dependencies": {
+    "koa": "2.7.0"
+  },
+  "author": "nervending",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/nervending/kite_server/issues"
+  },
+  "homepage": "https://github.com/nervending/kite_server#readme"
+}
