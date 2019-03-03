@@ -1,4 +1,12 @@
+const Models = require('../models')
+const Test = Models.test
+
 module.exports = {
+    'GET test': async (ctx, next) => {
+        await Test()
+        ctx.rest()
+    },
+
     'GET hello': async (ctx, next) => {
         console.log(`******** request query *************`)
         console.log(ctx.request.query)
